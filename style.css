@@ -138,18 +138,22 @@ body, .section {
     padding: 0;
 }
 .explaination{
+ max-width: 100%;
  color: var(--text-color);
  font-size: 24px;
+ padding-top: 10px;
  line-height: 2;
- padding: 15px;
+
 }
-.para{
+.para {
     max-width: 1068px;
     margin: 0 auto;
     border-left: 2px solid var(--second-color);
     border-right: 2px solid var(--second-color);
     display: flex;
-
+    padding: 20px;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 .home-title {
     font-size: 3.5rem;
@@ -173,6 +177,7 @@ body {
     align-items: center;
     column-gap: 1.5rem;
     margin-top: 2rem !important;
+    margin-bottom:1rem;
 }
 
 .filter-item {
@@ -265,6 +270,8 @@ body {
     padding-right: 150px;
     padding-top: 30px;
     padding-bottom: 50px;
+    display: flex;
+    
 
 }
 .mid-img{
@@ -328,13 +335,20 @@ body {
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-color);
-    -webkit-line-clamp: 2; /* Limit title to 2 lines */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    display: inline-block;;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 .post-title:hover {
     text-decoration-line: underline;
     text-decoration-color: var(--third-color);
+}
+.post-dates {
+    font-size: 0.8rem;
+    color: var(--second-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .post-date {
     display: flex;
@@ -343,6 +357,14 @@ body {
     font-weight: 400;
     margin-top: 4px;
     color: var(--second-color);
+}
+
+.post-numbers {
+    color: var(--second-color);
+    font-size: 1rem;
+    font-weight: 300;
+    font-weight: normal;
+    margin-left: 5px;
 }
 .post-number{
     color: var(--second-color);
@@ -361,6 +383,8 @@ body {
     gap: 10px; /* Adjust this spacing as needed */
 }
 .post-infos{
+    max-width: 1068px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -431,6 +455,7 @@ footer p {
     {
         column-gap: 0.9rem;
         margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem;
     }
     section{
         padding: 0.7rem  0.5rem ;
@@ -461,13 +486,32 @@ footer p {
     .post-box {
         padding:5px;
         flex-direction: row;
-        height: 100px;/* Stack the image and text vertically */
+        min-height: 95px;
         gap:8px;
         margin: 0px;
+        max-height: 100px;
     }
     .post-title
     {
-    font-size: 0.7rem;
+    line-height: 0.6rem;
+    font-size: 0.6rem;
+    margin-bottom: 0px;
+    } 
+    .text-box {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .post-numbers{
+        font-size: 0.6rem;
+    }
+    .post-dates{
+        font-size: 0.6rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
     }
     .post-description{
         font-size:0.65rem;
@@ -505,19 +549,44 @@ footer p {
     }
 
     .home2-text {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         padding: 5px;
         bottom: 10px;
         left: 10px;
     }
-    para{
-        max-width: 300px;
-        margin: 0 auto;
-
-    }
     .explaination{
         font-size: 10px;
     }
+    .post-number{
+     font-size: 10px;
+    
+    }
+    .post-date{
+        font-size: 10px;
+    }
+    .mid{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        object-position: center;
+        flex-direction: column;
+    
+    
+    }
+    .mid-img{
+        width: 100%;
+        object-position: center;
+        max-height: 300px;
+        margin: auto;
+    }
+    .mid-text{
+        font-size: 10px;
+    }
+    .post-infoes{
+        max-width: 300px;
+    }
+    
 
    
 }

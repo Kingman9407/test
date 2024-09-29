@@ -2,123 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KGMT-tech</title>
-    <!-- link to css -->
+    <title>Venom Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-
 <body>
-    <!-- header -->
     <header>
         <div class="nav container">
-            <!-- logo -->
-            <a href="#" class="logo">Ve <span>nom1</span></a>
+            <a href="#" class="logo">Ve nom1</a>
         </div>
     </header>
-    
 
-    <!-- Home -->
-    <section class="home" id="home">
+    <section class="home section" id="home">
         <div class="home-text container">
             <h2 class="home-title">The venom blog</h2>
-            <div class="home-subtitle">Your source of</div>
+            <span class="home-subtitle">Your source of</span>
         </div>
     </section>
 
     <div class="post-filter container">
-        <span class="filter-item active-filter" data-filter='house'>HOME</span>
-        <span class="filter-item " data-filter='all'>all</span>
-        <span class="filter-item" data-filter='tips'>tips</span>
-        
-    </div>
-<!-- post box -->
-<section class="banner" id="banner">
-    <a href="post.page.html">
-    <div class="banner-1">
-        <img src="download.jpg" alt="Banner Image" class="banner-img">
-        <div class="banner-text">the all new Mercedes form factory</div>
-    </a>
-    </div>
-    
-</section>
-<section class="post container">
-    
-    <!-- post box 1 -->
-    <div class="post-box house" data-number="5">
-        <img src="download.jpg" alt="" class="post-img">
-        <div class="text box">
-        <a href="post-page.html" class="post-title">
-            How to Create best UX Design With Adobe XD</a>
-            <div class="post-info">
-            <h2 class="category">#5</h2>
-            <span class="post-description">hows that!</span>
-            </div>
-        </div>
+        <span class="filter-item active-filter" data-filter="house">HOME</span>
+        <span class="filter-item" data-filter="all">all</span>
+        <span class="filter-item" data-filter="tips">tips</span>
     </div>
 
-    <!-- post box 2 -->
-    <div class="post-box house" data-number="2">
-        <img src="download.jpg" alt="" class="post-img">
-        <div class="text box">
-        <a href="post-page.html" class="post-title">
-            How to Create best UX Design With Adobe XD
+    <section class="banner section" id="banner">
+        <a href="post.page.html">
+            <div class="banner-1">
+                <img src="download.jpg" alt="Banner Image" class="banner-img">
+                <div class="banner-text">
+                    the all new Mercedes form factory
+                </div>
+            </div>
         </a>
-        <div class="post-info">
-            <span class="post-description">  <h2 class="category">#2</h2>&nbsp;&nbsp;& hows that!
-                this is a test post for the website and als to check the lines
-                need more words to check
-            </span>
+    </section>
+
+    <section class="post container">
+        <div class="post-box house" data-number="1">
+            <img src="download.jpg" alt="" class="post-img">
+            <div class="text-box">
+                <a href="post-page.html" class="post-title">
+                    How to Create best UX Design With Adobe XD 
+                    <span class="post-numbers">#1</span></a>
+                <span class="post-dates">September XX, 2024 </span>
+                <div class="post-info">
+                    <span class="post-description">hows that!</span>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- post box 3 -->
-    <div class="post-box house" data-number="3">
-        <img src="download.jpg" alt="" class="post-img">
-        <div class="text box">
-        <a href="post.page.html" class="post-title">
-            How to Create best UX Design With Adobe XD
-        </a>
-        <div class="post-info">
-            <h2 class="category">#3</h2>
-            <span class="post-description">  hows that!</span>
+        <div class="post-box house" data-number="2">
+            <img src="download.jpg" alt="" class="post-img">
+            <div class="text-box">
+                <a href="post-page.html" class="post-title">
+                    How to Create best UX Design With Adobe XD 
+                    <span class="post-numbers">#2</span></a>
+                <span class="post-dates">September XX, 2024</span>
+                <div class="post-info">
+                    <span class="post-description">hows that!</span>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- post box 1 -->
-    <div class="post-box house" data-number="4">
-        <img src="download.jpg" alt="" class="post-img">
-        <div class="text box">
-        <a href="post-page.html" class="post-title">
-            How to Create best UX Design With Adobe XD</a>
-            <div class="post-info">
-            <h2 class="category">#4</h2>
-            <span class="post-description">hows that!</span>
+
+        <div class="post-box house" data-number="3">
+            <img src="download.jpg" alt="" class="post-img">
+            <div class="text-box">
+                <a href="post-page.html" class="post-title">
+                    How to Create best UX Design With Adobe XD 
+                    <span class="post-numbers">#3</span></a>
+                <span class="post-dates">September XX, 2024</span>
+                <div class="post-info">
+                    <span class="post-description">Mercedes-Benz is a renowned German luxury 
+                        automobile brand known for its innovative engineering and timeless desighn</span>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-</section>
-<div class="footer container">
-    <div class="post-title">&nbsp;&nbsp;   by KGMT-tech</div>
-    <div class="social">
-        <a href="#"><i class='bx bxl-instagram'></i></a>
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#"><i class='bx bxl-facebook'></i></a>
+    <footer class="footer container">
+        <p>by KGMT-tech</p>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
         </div>
-</div>
-<!--   Jquery -->
-<script
-  src="https://code.jquery.com/jquery-3.7.1.js"
-  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-  crossorigin="anonymous"></script>
-<!-- link to js -->
+    </footer>
 
-<script src="main.js"></script>
-
+    <script src="main.js"></script>
 </body>
 </html>
