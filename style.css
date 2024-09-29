@@ -493,11 +493,12 @@ footer p {
     }
     .post-title
     {
-    line-height: 0.6rem;
+    line-height: 0.65rem;
     font-size: 0.6rem;
     margin-bottom: 0px;
     } 
     .text-box {
+        max-height: 95px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -506,6 +507,7 @@ footer p {
     }
     .post-numbers{
         font-size: 0.6rem;
+        margin-left: 3px;
     }
     .post-dates{
         font-size: 0.6rem;
@@ -514,7 +516,7 @@ footer p {
 
     }
     .post-description{
-        font-size:0.65rem;
+        font-size:0.6rem;
         margin-top: 0px;
     }
 
